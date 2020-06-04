@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kokwet</string>
+    <!--    slide titles-->
+    <string name="first_slide_title">Search for Service Providers</string>
+    <string name="second_slide_title">Pick your Service Provider</string>
+    <string name="third_slide_title">Everyone is Happy!</string>
+    <!--    slide descriptions-->
+    <string name="first_slide_description">Find reputable service providers within your social network.</string>
+    <string name="second_slide_description">Sort through the many providers according to reviews and your social network.</string>
+    <string name="third_slide_description">Everyone happy with a job well done!</string>
+    <!--    buttons-->
+    <string name="btn_next_slide">Next</string>
+    <string name="btn_skip_slide">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_activity_signup">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--    lultiline text items-->
+    <string name="dashboard_text">"Need a plumber, electrician, fumigation services? Or may be you just need a driver to drop your ride to your dad in shagz..? Worry no more. Signup and you can have all this at the touch of a button"</string>
+</resources>
