@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "349848608234",
+    "firebase_url": "https://kokwet-6336d.firebaseio.com",
+    "project_id": "kokwet-6336d",
+    "storage_bucket": "kokwet-6336d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349848608234:android:c834c000f922b904002693",
+        "android_client_info": {
+          "package_name": "com.example.kokwet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349848608234-733mr1f9oluiujspf55holmnlie424r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWpInEKACaqP56ZTFzxtvRUbRv2vPtzdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349848608234-733mr1f9oluiujspf55holmnlie424r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
