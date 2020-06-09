@@ -25,11 +25,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="16dp"
-        android:fontFamily="sans-serif-thin"
+        android:fontFamily="@font/kanit"
         android:text="@string/dashboard_text"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_dashboard" />

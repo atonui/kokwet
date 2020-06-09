@@ -33,6 +33,7 @@ class SlideAdapter(var context: Context): PagerAdapter() {
         return view == `object` as View
     }
 
+//    returns how many slides are going to be in the slider
     override fun getCount(): Int {
         return headings.count()
     }

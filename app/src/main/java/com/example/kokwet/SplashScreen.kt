@@ -1,6 +1,8 @@
 package com.example.kokwet
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -24,10 +26,23 @@ class SplashScreen : AppCompatActivity() {
         img_logo.startAnimation(topAnimation)
         tv_app_title.startAnimation(bottomAnimation)
 
+        val onBoardingScreen: SharedPreferences = getSharedPreferences("onBoardingScreen", Context.MODE_PRIVATE)
+
 
         Handler().postDelayed({
-            startActivity(Intent(this, Onboarding::class.java))
-            finish()
+
+            var isFirstTime: Boolean = onBoardingScreen.getBoolean("firstTime", true)
+
+            if (isFirstTime) {
+                val editor: SharedPreferences.Editor = onBoardingScreen.edit()
+                editor.putBoolean("firstTime", false)
+                editor.commit()
+                startActivity(Intent(this, Onboarding::class.java))
+                finish()
+            } else {
+                startActivity(Intent(this, LoginActivity::class.java))
+                finish()
+            }
         }, 3000)
     }
 }
