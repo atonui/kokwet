@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/architects_daughter"
-        android:text="Welcome, back"
+        android:text="Welcome, back,"
         android:textColor="#000"
         android:textSize="30sp" />
 
@@ -45,20 +45,20 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/et_email"
+            android:id="@+id/login_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="Email">
+            android:hint="Username">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"/>
+                android:inputType="text"/>
 
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/et_password"
+            android:id="@+id/login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -80,7 +80,8 @@
             android:layout_margin="5dp"
             android:background="#00000000"
             android:text="Forgot Password?"
-            android:textAlignment="textEnd" />
+            android:textAlignment="textEnd"
+            tools:ignore="RtlCompat" />
 
         <Button
             android:id="@+id/btn_signin"
